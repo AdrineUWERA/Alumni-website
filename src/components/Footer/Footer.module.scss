@@ -1,0 +1,81 @@
+footer {
+    background: #002E6D;
+    color: #FFFFFF;
+    padding: 2rem 0;
+
+    li {
+        list-style: none;
+
+        a {
+            font-style: normal;
+            font-weight: normal;
+            line-height: 16px;
+            text-decoration: none;
+            color: #FFFFFF;
+
+            &:hover {
+                text-decoration: underline;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+
+    h2 {
+        font-family: 'Reggae One';
+        padding-bottom: 1rem;
+    }
+
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input,
+    textarea {
+        appearance: none;
+        border: none;
+        outline: none;
+        background: none;
+        display: block;
+        width: 100%;
+        padding: 14px 15px .7rem 15px;
+        margin-bottom: .8rem;
+        border-radius: 3px;
+        color: #333;
+        font-size: 14px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        background-color: #f3f3f3;
+        transition: 0.4s;
+        border: 1px solid #D9D9D9;
+
+        &::placeholder {
+            color: #888;
+            transition: 0.4s;
+        }
+    }
+
+    .footer__input {
+        width: 35%;
+    }
+
+    .footer__inner_text {
+        width: 55%;
+    }
+
+    .contact__section {
+        margin: 1rem 0;
+
+        p {
+            color: rgb(212, 212, 212);
+            width: 60%;
+        }
+    }
+
+    .trade_mark {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 3rem;
+        color: #888;
+    }
+}

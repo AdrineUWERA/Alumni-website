@@ -1,0 +1,20 @@
+{
+  "news": [
+    {
+      "title": "Melissa Kariuki and Arinze Obiezue were awarded Schwarzman Scholarship",
+      "summary": "The Schwarzman Scholars Program  is a fully-funded one-year Master’s program in Global Affairs at Schwarzman College, a fully residential college within Tsinghua University in Beijing, China",
+      "dateReleased":"2021-12-01",
+      "image": "images/image_Melisaa.png",
+      "id": 1
+    },
+    
+    {
+      "title": "Jeremiah Thoronka has been selected the winner of the first Global Student Prize.",
+      "summary": "Jeremiah from Freetown, Sierra Leone, was chosen from over 3,500 nominations from 94 countries and will receive $100,000.",
+      "dateReleased":"2021-12-01",
+      "image": "images/image_Jeremiah.png",
+      "id": 2
+    }
+
+  ]
+}
