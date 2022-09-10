@@ -1,0 +1,76 @@
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        h1 {
+            font-family: 'Reggae One';
+            color: #FFFFFF;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+
+        }
+
+        a {
+            font-weight: 500;
+            text-decoration: none;
+            padding-left: 1em;
+            line-height: 30px;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+    }
+}
+
+aside {
+    background-color: #002E6D;
+    width: 100%;
+    padding: .6rem 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+}
+
+.aside__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+
+    p {
+        margin: 0;
+    }
+}
+
+.spacer {
+    width: 50%;
+}
+
+button {
+    background-color: #c91e24;
+    outline: none;
+    border: none;
+    font-style: normal;
+    color: #FFFFFF;
+    padding: .5em;
+    border-radius: 4px !important;
+
+    &:hover {
+        color: #FFFFFF;
+        transition: .5s ease;
+        background-color: #c91e24;
+    }
+}

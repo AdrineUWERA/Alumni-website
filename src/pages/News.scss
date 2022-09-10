@@ -1,0 +1,55 @@
+Header{
+    background-image: url("../asstes/background_image.png");
+    width: 100%;
+    height:100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page_introduction{
+    width:30%;
+    text-align: center;
+    background: #00000063;
+    position:absolute;
+    top:70%;
+    left:37.5%;
+    h1{
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 1rem;
+    }
+    .underline{
+        width:6rem;
+        padding-top: 0;
+        margin: 0 auto;
+        border-bottom: 6px solid #ED1C24;
+    }
+    p{
+        width: 75%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+        display: block;
+        color: #ffffff;
+        font-weight: bold;
+        span{
+            padding-top: 1.5rem;
+            font-weight:400;
+        }
+    }
+}
+
+@media (max-width:1130px) {
+    .page_introduction{
+        width:45%;
+        top:70%;
+        left:27.5%;
+    }
+}
+@media (max-width:579px) {
+    .page_introduction{
+        width:80%;
+        top:70%;
+        left:10%;
+    }
+}
