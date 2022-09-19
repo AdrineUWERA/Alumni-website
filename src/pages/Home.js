@@ -11,7 +11,7 @@ export function Home(props) {
 
  
     useEffect(()=>{
-        fetch("http://localhost:3001/news")
+        fetch("http://localhost:3002/news")
         .then(res=>{
             if(!res.ok){
                 throw Error("Could not fetch :(")
@@ -32,7 +32,7 @@ export function Home(props) {
     },[])
 
     useEffect(()=>{
-        fetch("http://localhost:8000/events")
+        fetch("http://localhost:8001/events")
         .then(res=>{
             if(!res.ok){
                 throw Error("Could not fetch :(")
