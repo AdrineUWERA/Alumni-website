@@ -1,0 +1,78 @@
+   
+    .slider{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        position:relative;
+        .gallery-title{
+            position:absolute;
+            // border:2px solid red;
+            font-size: 1.8rem;
+            padding: 0;
+            margin: auto;
+            top:2rem;
+            left:45%;   
+            display: flex;
+            justify-content: center;
+            width: auto;
+            background: #0000002a;
+            color:#002E6D;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .slide-nav{
+            text-align: center;
+            // border: 2px solid red;
+            // width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                // border: 2px solid red;
+                width:78%;
+                position: absolute;
+                top: 50%;
+                font-size: 3rem;
+                color: #002E6D;
+                cursor: pointer;
+                user-select: none;
+                
+    
+            }
+        }
+        
+        // .prev{
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 10.625rem;
+        //     font-size: 3rem;
+        //     color: #002E6D;
+        //     // z-index: 10;
+        //     cursor: pointer;
+        //     user-select: none;
+        // }
+        // .next{
+        //     position: absolute;
+        //     top: 50%;
+        //     right: 10.625rem;
+        //     font-size: 3rem;
+        //     color: #002E6D;
+        //     // z-index: 10;
+        //     cursor: pointer;
+        //     user-select: none;
+        // }
+        .slide{
+            // border:2px solid red;
+            width:100%;
+            // opacity: 0;
+            // transition-duration: 1s ease;
+            .image{
+                width:80%;
+                margin: auto;
+                height:650px;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }

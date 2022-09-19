@@ -1,101 +1,141 @@
+@media (max-width:767px) {
 .upcoming-events{
-    background-color: #002E6D;
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    h1{
-        font-size: 50px;
-        color: #fff;
-        text-align: left;
-        font-weight: bold;
-        margin-left: 130px;
-        margin-bottom: 30px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    .section-title{
+        color:#002E6D;
+        margin-bottom:4rem;
     }
-
     .events{
-        
-        .event{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .event-1{
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: row;
-            width: 100%;
-            margin-bottom: 50px;
-            
-            .previous-event {
-                width: 5%;
+            justify-content: flex-start;
+            flex: 1;
+            width:80%;
+            margin-bottom: 2rem;
+            .date{
+                border: 6px solid red;
+                padding: 1.5rem;
+                text-transform: uppercase;
+            }
+            .event-details{
+                padding-left: 1rem;
                 display: flex;
-                justify-content:center;
-                align-items: center;
-                img{
-                    width: 30px;
-                    top: 50%; 
-                    color: #fff;
-                    z-index: 10;
-                    cursor: pointer;
-                    user-select: none;
-                }
-            }
-            
-
-            .next-event {
-                width: 5%;
-                img{
-                    width: 30px; 
-                    top: 50%; 
-                    color: #fff;
-                    z-index: 10;
-                    cursor: pointer;
-                    user-select: none;
-                }
-            }
-
-            .event-text{
-                width: 40%;
-                h3{
-                    font-size: 30px;
-                    color: #fff;
-                    padding-bottom: 20px;
-                    padding-top: 20px;
+                flex-direction: column;
+                justify-content: center;
+                
+                .title{
                     font-weight: bold;
+                    font-size: 1.2rem;
+                    color:#002E6D;
                 }
-
-                h4{
-                    font-size: 25px;
-                    color: #fff;
-                    padding-bottom: 20px;
-                    padding-top: 20px;
-                }
-
-                p{
-                    font-size: 20px;
-                    color: #fff;
-                    padding-bottom: 20px;
-                    padding-top: 20px;
-                    font-weight: lighter;
-                }
-
-                button{
-                    font-size: 20px;
-                    padding-left: 25px;
-                    padding-right: 25px;
-                    background-color: white;
-                    color: #002E6D
+                .organisation{
+                    color:#ED1C24;
                 }
             }
-
-            .event-image{
-                width: 35%;
-                img{
-                    width: 100%;
+        }
+        .event-2{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width:80%;
+            margin-bottom: 2rem;
+            .date{
+                border: 6px solid red;
+                padding: 1.5rem;
+                text-transform: uppercase;
+            }
+            .event-details{
+                width: 16rem;
+                padding-left: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+               
+                .title{
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    color:#002E6D;
+                }
+                .organisation{
+                    color:#ED1C24;
                 }
             }
         }
     }
+    
+}
+}
+@media (min-width:768px) {
+    .upcoming-events{
+        margin-top: 4rem;
+        .section-title{
+            color:#002E6D;
+            margin-bottom:4rem;
+        }
+        .events{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .event-1{
+                display: flex;
+                justify-content: space-around;
+                width:45%;
+                margin-bottom: 2rem;
+                .date{
+                    border: 6px solid red;
+                    padding: 1.5rem;
+                    text-transform: uppercase;
+                }
+                .event-details{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                    .title{
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        color:#002E6D;
+                    }
+                    .organisation{
+                        color:#ED1C24;
+                    }
+                }
+            }
+            .event-2{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width:45%;
+                margin-bottom: 2rem;
+                .date{
+                    border: 6px solid red;
+                    padding: 1.5rem;
+                    text-transform: uppercase;
+                }
+                .event-details{
+                    min-width: 16rem;
+                    text-align:left;
+                    padding-left: 1rem;
+                    .title{
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        color:#002E6D;
+                    }
+                    .organisation{
+                        color:#ED1C24;
+                    }
+                }
+            }
+        }
+        
+    }
+    
 }

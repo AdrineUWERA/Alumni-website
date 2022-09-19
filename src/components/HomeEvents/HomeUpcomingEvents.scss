@@ -1,0 +1,101 @@
+.home-upcoming-events{
+    background-color: #002E6D;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1{
+        font-size: 50px;
+        color: #fff;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 130px;
+        margin-bottom: 30px;
+    }
+
+    .events{
+        
+        .event{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            margin-bottom: 50px;
+            
+            .previous-event {
+                width: 5%;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                img{
+                    width: 30px;
+                    top: 50%; 
+                    color: #fff;
+                    z-index: 10;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+            
+
+            .next-event {
+                width: 5%;
+                img{
+                    width: 30px; 
+                    top: 50%; 
+                    color: #fff;
+                    z-index: 10;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+
+            .event-text{
+                width: 40%;
+                h3{
+                    font-size: 30px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                    padding-top: 20px;
+                    font-weight: bold;
+                }
+
+                h4{
+                    font-size: 25px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                    padding-top: 20px;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                    padding-top: 20px;
+                    font-weight: lighter;
+                }
+
+                button{
+                    font-size: 20px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    background-color: white;
+                    color: #002E6D
+                }
+            }
+
+            .event-image{
+                width: 35%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

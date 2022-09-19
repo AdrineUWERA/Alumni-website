@@ -1,6 +1,6 @@
-import UpcomingEvents from "../components/Events/UpcomingEvents";
+import UpcomingEvents from "../components/HomeEvents/HomeUpcomingEvents";
 import GetInvolved from "../components/GetInvolved/GetInvolved";
-import NewList from "../components/News/NewsList";
+import NewsList from "../components/HomeNews/HomeNewsList";
 import {useState, useEffect} from 'react';
 import "./Home.scss"
 export function Home(props) {
@@ -11,7 +11,7 @@ export function Home(props) {
 
  
     useEffect(()=>{
-        fetch("http://localhost:3002/news")
+        fetch("http://localhost:3003/news")
         .then(res=>{
             if(!res.ok){
                 throw Error("Could not fetch :(")
@@ -53,7 +53,7 @@ export function Home(props) {
     },[])
     return (
         <div className="home-container">
-            <section className="news_section">{news && <NewList news={news}/>}</section>
+            <section className="news_section">{news && <NewsList news={news}/>}</section>
             <section className="events_section"> {events && <UpcomingEvents events={events}/>} </section>
             <section className="get-involved-section"> <GetInvolved/> </section>
             {/* <EventsSlider  slides={ slideShowData }/> */}           

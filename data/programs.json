@@ -1,0 +1,16 @@
+{
+    "programs":[
+        {
+            "name":"ALU Connect",
+            "picture":"../src/asstes/program1.png",
+            "description":"Find connections through ALU Connect's global community, and advance your career with professional networking",
+            "id":1
+        },
+        {
+            "name":"ALU Community Drive",
+            "picture":"../src/asstes/program2.png",
+            "description":"Take a look at the several communal initiatives taken by ALU’s gifted alumni and tag along and join them too!",
+            "id":2
+        }
+    ]
+}
