@@ -6,7 +6,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Programs from './pages/Programs';
 import News from './pages/News';
+import Login from './pages/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import GetInvolved from './pages/GetInvolved';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/news" element={<News/>} />
+        <Route  path="/login" element={<Login/>}/>
+        <Route  path="/involved" element={<GetInvolved/>}/>
       </Routes>
       <Footer />
     </div>
