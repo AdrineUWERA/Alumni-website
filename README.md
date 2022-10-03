@@ -28,17 +28,18 @@ The objective of this project is to develop a website that will showcase the lif
 
 ## Dependencies
 
-| Project      | Home Page                                                                        |
+| Project      | Links                                                                            |
 |--------------|----------------------------------------------------------------------------------|
-| React        | <[https://expressjs.com/](https://reactjs.org/)>                                 |
-| Taiwind css  | <[https://reactjs.org/](https://tailwindcss.com/ )>                              |
-| Sass         | <[https://helmetjs.github.io/](https://sass-lang.com/ )>                         |
-| Postcss      | <[https://github.com/markdown-it/markdown-it](https://postcss.org/)>             |
-| Autoprefixer | <[https://highlightjs.org/](https://autoprefixer.github.io/ )>                   |
-| Formik       | <[https://lunrjs.com/](https://formik.org/)>                                     |
-| Node-scss    | <[https://github.com/dylang/node-rss](https://www.npmjs.com/package/node-scss)>  |
+| React        | [https://expressjs.com/](https://reactjs.org/)                                   |
+| Taiwind css  | [https://reactjs.org/](https://tailwindcss.com/ )                                |
+| Sass         | [https://helmetjs.github.io/](https://sass-lang.com/ )                           |
+| Postcss      | [https://github.com/markdown-it/markdown-it](https://postcss.org/)               |
+| Autoprefixer | [https://highlightjs.org/](https://autoprefixer.github.io/ )                     |
+| Formik       | [https://lunrjs.com/](https://formik.org/)                                       |
+| Node-scss    | [https://github.com/dylang/node-rss](https://www.npmjs.com/package/node-scss)    |
 
-### To contribute,
+
+## How To contribute
 - clone the dev branch 
 - checkout to your working branch feature-xxxxx
 - make your changes
@@ -46,3 +47,16 @@ The objective of this project is to develop a website that will showcase the lif
 - commit your changes
 - merge remote dev before pushing to avoid any conflicts
 - create a pull request merging into dev branch and assign a reviewer
+
+## Contributors
+- Evelyne UMUBYEYI: https://github.com/EvelyneUmubyeyi
+- Adrine UWERA: https://github.com/AdrineUWERA 
+- Delyce TWIZEYIMANA: https://github.com/Delyc 
+- Gabin ISHIMWE: https://github.com/Gabin-ishimwe 
+- Cynthia Christelle ISARO:  https://github.com/1svr0 
+- Elisee ISHIMWE: 
+- Joel MAISON:
+- Joel ALUMASA:
+- Mercy NYAMUSI:
+
+
