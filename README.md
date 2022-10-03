@@ -15,11 +15,28 @@ The objective of this project is to develop a website that will showcase the lif
 ## Structure
 
 `public/images`: images used on the website
+
 `src/asstes`: images and videos used on the website
+
 `src/components`: smaller components of the website
+
 `src/data`: JSON files containing sample data used on the news and upcoming events page.
+
 `src/pages`: website pages i.e: home, programs, get involved(Groups), login, news & events
+
 `src/app.js`: page routing
+
+## Dependencies
+
+| Project      | Home Page                                                                        |
+|--------------|----------------------------------------------------------------------------------|
+| React        | <[https://expressjs.com/](https://reactjs.org/)>                                 |
+| Taiwind css  | <[https://reactjs.org/](https://tailwindcss.com/ )>                              |
+| Sass         | <[https://helmetjs.github.io/](https://sass-lang.com/ )>                         |
+| Postcss      | <[https://github.com/markdown-it/markdown-it](https://postcss.org/)>             |
+| Autoprefixer | <[https://highlightjs.org/](https://autoprefixer.github.io/ )>                   |
+| Formik       | <[https://lunrjs.com/](https://formik.org/)>                                     |
+| Node-scss    | <[https://github.com/dylang/node-rss](https://www.npmjs.com/package/node-scss)>  |
 
 ### To contribute,
 - clone the dev branch 
