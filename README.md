@@ -1,4 +1,26 @@
-## ALU Alumni Website
+# ALU Alumni Association website
+
+## Project Description
+
+The objective of this project is to develop a website that will showcase the life of ALU alumni after graduation. The website will share alumni stories on their different journeys towards their missions and their impact in Africa and beyond. Through the website, users can get information about different programs run by alumni. Moreover, users will be able to engage with the alumni by accessing their profiles and contact information.
+
+## How to run the project
+
+- Clone the repository
+- Run npm install
+- Run “npx json-server --watch src/data/news.json --port 3001” to load news content on the home page.
+- Run “npx json-server --watch src/data/upcomingEvents.json --port 3002”  to load upcoming events on the home page.
+- Run npm start
+
+## Structure
+
+`public/images`: images used on the website
+`src/asstes`: images and videos used on the website
+`src/components`: smaller components of the website
+`src/data`: JSON files containing sample data used on the news and upcoming events page.
+`src/pages`: website pages i.e: home, programs, get involved(Groups), login, news & events
+`src/app.js`: page routing
+
 ### To contribute,
 - clone the dev branch 
 - checkout to your working branch feature-xxxxx
