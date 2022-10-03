@@ -13,9 +13,9 @@ export const Header = (props) => {
                         <h1>ALU Alumni</h1>
                     </div>
                     <div>
-                        <p>Sign in</p>
+                        <a href="/login"><p>Sign in</p></a>
                     </div>
-                    <button>Get Involved</button>
+                    <a href="/involved"><button>Get Involved</button></a>
                 </div>
             </aside>
             <section className={classes.background_cover}>
