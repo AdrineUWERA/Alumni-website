@@ -54,9 +54,9 @@ The objective of this project is to develop a website that will showcase the lif
 - Delyce TWIZEYIMANA: https://github.com/Delyc 
 - Gabin ISHIMWE: https://github.com/Gabin-ishimwe 
 - Cynthia Christelle ISARO:  https://github.com/1svr0 
-- Elisee ISHIMWE: 
-- Joel MAISON:
-- Joel ALUMASA:
-- Mercy NYAMUSI:
+- Elisee ISHIMWE: https://github.com/Elisee-ISHIMWE
+- Joel MAISON: https://github.com/JoelJrMaison
+- Joel ALUMASA: https://github.com/JoelAlumasa
+- Mercy NYAMUSI: https://github.com/MercyNyamusi
 
 
