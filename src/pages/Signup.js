@@ -232,7 +232,7 @@ export default function SignUp() {
 
           <p className=" no-account ">
             already have an account?{" "}
-            <a href="/login"><span className="text-red-500 font-bold">Sign up</span></a>
+            <a href="/login"><span className="text-red-500 font-bold">Login</span></a>
           </p>
         </div>
       )}

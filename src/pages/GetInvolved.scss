@@ -1,0 +1,90 @@
+.body {
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+
+    .title {
+        color: #002E6D;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+
+    .groups {
+        width: 100%;
+        padding-bottom: 1rem;
+
+        .title {
+            width: 400px;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .groups_table {
+        width: 70%;
+        padding-top: 1rem;
+
+        .table_row {
+            position: relative;
+            padding-left: 2.5rem;
+            // padding-top: 1.5rem;
+            border: 1px solid;
+            border-top: 0px;
+            padding-top: 0;
+            margin: 0;
+
+            .row_icon {
+                position: absolute;
+                right: 10px;
+                top: 0;
+                width: 50px;
+                height: 50px;
+                color: #002E6D;
+            }
+        }
+
+        .first_row {
+            position: relative;
+            padding-left: 2.5rem;
+            padding-top: 1.5rem;
+            border: 1px solid;
+            padding-top: 0;
+            margin: 0;
+            .row_icon {
+                position: absolute;
+                right: 10px;
+                top: 0;                
+                width: 50px;
+                height: 50px;
+                color: #002E6D;
+            }
+        }
+
+        .dropdown {
+            background-color: transparent;
+            position: absolute;
+            right: 10px;
+            top: 0;
+        }
+        p{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin:0;
+        }
+        .sub{
+            padding-top: 1rem;
+        }
+
+        .plus{
+            margin-right: 0.5rem;
+        }
+    }
+    .create{
+        margin-bottom: 3rem;
+        font-weight: 700;
+        background-color:#ED1C24;
+    }
+}
