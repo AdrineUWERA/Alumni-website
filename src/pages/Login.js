@@ -44,7 +44,7 @@ export default function Login() {
         className="h-full flex items-center shadow-6xl text-blue-900 font-semibold "
         onClick={() => renderProps.onClick()}
       >
-        <img className="w-7 mr-2 " src={google} alt="" />
+        <img className="w-[5rem]  mr-2 " src={google} alt="" />
         Sign up with google
       </button>
     );
@@ -172,7 +172,7 @@ export default function Login() {
             </div>
 
             <div className="test relative w-full flex flex-col">
-              <label className="text-blue-900 font-medium" htmlFor="email ">
+              <label className="text-blue-900 font-4xl" htmlFor="email ">
                 Password
               </label>
               <input
@@ -236,7 +236,7 @@ export default function Login() {
                 <p></p>
                 <hr className="white" />
               </div>
-              <p className="text-gray-300 bg-gray-300 animate-pulse  w-10 font-bold">or</p>
+              <p className="text-red-500">or</p>
 
               <div className=" mt-2 grid grid-cols-1 w-1/2 divide-y divide-yellow-500">
                 <p></p>
