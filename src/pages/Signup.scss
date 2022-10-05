@@ -1,0 +1,65 @@
+hr {
+    color: black; 
+    width: 200px;
+}
+
+.separator p{
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.google-login{ 
+    height: 45px; 
+    margin-top: 20px;
+}
+
+.sign-up h1{
+    color: #002E6D;
+    text-transform: uppercase; 
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+form label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+form input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    // border-radius: 5px;
+    border-bottom: 2px solid #002E6D;
+    background-color: #dbe5f3;
+}
+
+.signin-btn{
+    background-color: #002E6D;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.no-account{
+    margin-bottom: 50px;
+}
+
+.formik-error{
+    color: red; 
+}
+
+
+.login-options{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.login-options div{
+    margin-left: 20px;
+    margin-right: 20px;
+}

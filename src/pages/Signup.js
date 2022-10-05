@@ -13,8 +13,8 @@ import { FaLinkedin } from "react-icons/fa";
 // import linkedin from "../asstes/linkedin.svg";
 import * as Yup from "yup";
 import { useHistory } from "react-router-dom";
-import "./Login.scss";
-export default function Login() {
+import "./Signup.scss";
+export default function SignUp() {
   const [loading, setLoading] = useState(false);
 
   /*  ======================================== Google auth ====================================================== */
@@ -25,13 +25,13 @@ export default function Login() {
   const [showLogoutButton, setShowLogoutButton] = useState(false);
 
   const onLoginSuccess = (res) => {
-    console.log("Login success:", res.profileObj);
+    console.log("sign up success:", res.profileObj);
     setShowLoginButton(false);
     setShowLogoutButton(true);
   };
 
   const onFailureSuccess = (res) => {
-    console.log("login failed:", res);
+    console.log("sign up failed:", res);
   };
 
   const onSignoutSuccess = () => {
@@ -93,18 +93,21 @@ export default function Login() {
 
   const formik = useFormik({
     initialValues: {
+      name: "",
       email: "",
       password: "",
     },
     validationSchema: Yup.object({
+        name: Yup.string("Full name").required("Name is required"),
       email: Yup.string().email("Invalid Email").required("Email is required"),
       password: Yup.string("confirm password").required("Password is required"),
     }),
 
+
     /* ======================================Submti function ============================*/
     onSubmit: (values) => {
       setLoading(true);
-      toast.info("Sign in successfully");
+      toast.info("Sign up successfully");
 
       setTimeout(() => {
         setLoading(false);
@@ -120,7 +123,7 @@ export default function Login() {
 
       {!loading && (
         <div className="sign-up flex flex-col justify-center items-center  md:w-1/3   ">
-          <h1>Sign In</h1>
+          <h1>Sign Up</h1>
 
           {/* ============================= google login ======================================= */}
 
@@ -166,6 +169,24 @@ export default function Login() {
           >
             <div className="test relative w-full flex flex-col ">
               <label className="text-blue-900  font-medium" htmlFor="email">
+                Name
+              </label>
+
+              <input
+                className=" "
+                id="name"
+                type="text"
+                name="name"
+                onBlur={formik.handleBlur}
+                onChange={formik.handleChange}
+                value={formik.values.name}
+              />
+              <div className=" formik-error absolute top-6 left-0 text-red-600 text-sm">
+                {formik.touched.name && formik.errors.name}
+              </div>
+            </div>
+            <div className="test relative w-full flex flex-col ">
+              <label className="text-blue-900  font-medium" htmlFor="email">
                 Email
               </label>
 
@@ -196,9 +217,12 @@ export default function Login() {
                 onChange={formik.handleChange}
                 value={formik.values.password}
               />
+              
               <div className=" formik-error absolute top-6 left-0 text-red-600 text-sm">
                 {formik.touched.password && formik.errors.password}
               </div>
+
+              
             </div>
 
             <button className="signin-btn" type="submit">
@@ -207,8 +231,8 @@ export default function Login() {
           </form>
 
           <p className=" no-account ">
-            don't have an account?{" "}
-            <a href="/signup"><span className="text-red-500 font-bold">Sign up</span></a>
+            already have an account?{" "}
+            <a href="/login"><span className="text-red-500 font-bold">Sign up</span></a>
           </p>
         </div>
       )}
@@ -260,6 +284,25 @@ export default function Login() {
               action=""
               onSubmit={formik.handleSubmit}
             >
+                <div className="test relative w-full flex flex-col ">
+                <label
+                  className="text-gray-300 bg-gray-300 animate-pulse  rounded-lg mt-2 h-2 w-1/3 font-medium"
+                  htmlFor="name"
+                ></label>
+
+                <input
+                  className=" animate-pulse flex space-x-4 h-4 bg-gray-300 text-gray-300 rounded-lg mt-2 font-medium "
+                  id="name"
+                  type="text"
+                  name="name"
+                  onBlur={formik.handleBlur}
+                  onChange={formik.handleChange}
+                  value={formik.values.name}
+                />
+                <div className=" absolute top-6 left-0 text-red-600">
+                  {formik.touched.name && formik.errors.name}
+                </div>
+              </div>
               <div className="test relative w-full flex flex-col ">
                 <label
                   className="text-gray-300 bg-gray-300 animate-pulse  rounded-lg mt-2 h-2 w-1/3 font-medium"
@@ -283,7 +326,7 @@ export default function Login() {
               <div className=" test relative w-full flex flex-col">
                 <label
                   className="text-gray-300 bg-gray-300 animate-pulse  rounded-lg mt-2 h-2 w-1/3 font-medium"
-                  htmlFor="email"
+                  htmlFor="password"
                 ></label>
                 <input
                   className="text-gray-300 bg-gray-300 animate-pulse h-4  rounded-lg mt-2 font-medium"
