@@ -58,5 +58,6 @@ The objective of this project is to develop a website that will showcase the lif
 - Joel MAISON: https://github.com/JoelJrMaison
 - Joel ALUMASA: https://github.com/JoelAlumasa
 - Mercy NYAMUSI: https://github.com/MercyNyamusi
+- Musa Kanneh: https://github.com/musakanneh 
 
 
